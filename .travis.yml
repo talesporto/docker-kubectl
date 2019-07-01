@@ -2,5 +2,5 @@ services:
   - docker
 
 script:
-- docker build -t talesap/kubectl
+- docker build ./ -t talesap/kubectl
 - docker push talesap/kubectl
